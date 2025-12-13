@@ -13,3 +13,8 @@ auth:
           resolvers:
             # See https://backstage.io/docs/auth/github/provider#resolvers
             - resolver: usernameMatchingUserEntityName
+
+integrations:
+  github:
+    - host: github.com
+      token: 'REDACTED'
