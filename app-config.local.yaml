@@ -17,4 +17,4 @@ auth:
 integrations:
   github:
     - host: github.com
-      token: 'REDACTED'
+      token: ${GITHUB_TOKEN}
