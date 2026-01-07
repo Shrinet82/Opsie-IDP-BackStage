@@ -6,8 +6,8 @@ auth:
     guest: {}
     github:
       development:
-        clientId: 'Ov23lifM1ZEJWC3p6wpy'
-        clientSecret: 'REDACTED'
+        clientId: ${GITHUB_CLIENT_ID}
+        clientSecret: ${GITHUB_CLIENT_SECRET}
         #ration for your local development environment
         signIn:
           resolvers:
